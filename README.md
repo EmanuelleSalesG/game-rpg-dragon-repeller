@@ -52,23 +52,23 @@ through different locations, make choices, and engage in combat with various mon
 - Text: You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!
 
 ## Functions
-`update(location)`: Update UI based on the current location.
-`goTown()`: Navigate to the town square.
-`goStore()`: Navigate to the store.
-`goCave()`: Navigate to the cave.
-`buyHealth()`: Buy health if enough gold is available.
-`buyWeapon()`: Buy a weapon if enough gold is available.
-`sellWeapon()`: Sell a weapon for 15 gold.
-`fightSlime(), fightBeast(), fightDragon()`: Initiate fights with respective monsters.
-`goFight()`: Prepare for battle by updating UI with monster details.
-`attack(), dodge(), defeatMonster()`: Handle combat mechanics.
-`getMonsterAttackValue(level)`: Calculate monster's attack value based on level.
-`isMonsterHit()`: Determine if the player's attack hits the monster.
-`lose()`: Handle player's loss.
-`winGame()`: Handle player's victory.
-`restart()`: Reset player's stats and return to the town square.
-`easterEgg()`: Trigger the Easter egg event.
-`pickTwo(), pickEight()`: Handle Easter egg number selection.
+- `update(location)`: Update UI based on the current location.
+- `goTown()`: Navigate to the town square.
+- `goStore()`: Navigate to the store.
+- `goCave()`: Navigate to the cave.
+- `buyHealth()`: Buy health if enough gold is available.
+- `buyWeapon()`: Buy a weapon if enough gold is available.
+- `sellWeapon()`: Sell a weapon for 15 gold.
+- `fightSlime(), fightBeast(), fightDragon()`: Initiate fights with respective monsters.
+- `goFight()`: Prepare for battle by updating UI with monster details.
+- `attack(), dodge(), defeatMonster()`: Handle combat mechanics.
+- `getMonsterAttackValue(level)`: Calculate monster's attack value based on level.
+- `isMonsterHit()`: Determine if the player's attack hits the monster.
+- `lose()`: Handle player's loss.
+- `winGame()`: Handle player's victory.
+- `restart()`: Reset player's stats and return to the town square.
+- `easterEgg()`: Trigger the Easter egg event.
+- `pickTwo(), pickEight()`: Handle Easter egg number selection.
 
 
 Full stack development course Free Code Camp,
